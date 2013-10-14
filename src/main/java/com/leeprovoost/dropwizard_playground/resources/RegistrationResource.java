@@ -24,7 +24,7 @@ public class RegistrationResource {
     @GET
     @Path("/{id}")
     @ApiOperation(
-    		value = "Get a Registration object for a given ObjectId",
+    		value = "Get a Registration object for a given ObjectId ",
     		notes = "<p><strong>Service Name</strong>: getRegistration (internal)</p>", 
             response = Registration.class)
     @ApiResponses(value = {
