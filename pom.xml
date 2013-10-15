@@ -109,6 +109,7 @@
 							</excludes>
 						</filter>
 					</filters>
+					<linkXRef>false</linkXRef>
 				</configuration>
 				<executions>
 					<execution>
