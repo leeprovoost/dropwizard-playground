@@ -141,14 +141,6 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<verbose>true</verbose>
-					<minimumPriority>2</minimumPriority>
-					<rulesets>
-						<ruleset>rulesets/basic.xml</ruleset>
-					</rulesets>
-					<targetJdk>1.7</targetJdk>
-				</configuration>
 			</plugin>
 			
 		</plugins>
