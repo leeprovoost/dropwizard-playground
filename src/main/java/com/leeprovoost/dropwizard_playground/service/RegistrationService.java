@@ -6,7 +6,6 @@ import com.leeprovoost.dropwizard_playground.repository.RegistrationRepository;
 public class RegistrationService {
 
     private final RegistrationRepository registrationRepository;
-    private String unusedVariableForPMD;
 	
     public RegistrationService(RegistrationRepository registrationRepository) {
         this.registrationRepository = registrationRepository;
